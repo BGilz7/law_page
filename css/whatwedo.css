@@ -1,5 +1,5 @@
 body {
-  background-color: lightblue;
+  background-color: tan;
 }
 
 .container {
@@ -9,9 +9,12 @@ body {
   width: 60%;
   height: 100%;
   background-color: #fff;
-  box-shadow: 0px 0px 20px #505050;
+  box-shadow: 0px 10px 20px #505050;
 }
 
+.top {
+  margin-bottom: 0px;
+}
 
 .logo {
   margin: 40px 56px 30px 70px;
@@ -22,7 +25,7 @@ nav {
   border-bottom: 1px solid black;
   height: 35px;
   margin: 0px 5% 20px 5%;
-  display: block;
+  display: inline-block;
 }
 
 nav ul {
@@ -36,16 +39,20 @@ nav ul {
 li {
   font-size: 13px;
   display: inline;
-  line-height: 31px;
+
   font-weight: 500;
   padding-left: 10px;
   padding-right: 10px;
 
 }
 
+nav>ul>li>a {
+  color: black;
+}
+
 /*left side bar*/
 .small_side_bar {
-  background: url(http://placehold.it/200x330);
+  background-color: darkred;
   height: auto;
   width: 100%;
   background-size: cover;
@@ -61,10 +68,14 @@ li {
   padding: 2px;
 }
 
-.small_side_bar>ul>li {
+.small_side_bar>ul>li>a {
   display: block;
+  color: white;
 }
 
+.small_side_bar>ul>ul>li>a {
+  color: white;
+}
 
 footer {
   text-align: center;
