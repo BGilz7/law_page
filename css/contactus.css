@@ -1,5 +1,5 @@
 body {
-  background-color: tan;
+  background-color: antiquewhite;
 }
 
 .container {
@@ -10,6 +10,7 @@ body {
   height: 100%;
   background-color: #fff;
   box-shadow: 0px 10px 20px #505050;
+  font-size: 70%;
 }
 
 .top {
@@ -20,12 +21,18 @@ body {
   margin: 40px 56px 30px 70px;
 }
 
+img {
+  padding: 5px;
+  border: 1px solid #000;
+}
+
 nav {
   border-top: 1px solid black;
   border-bottom: 1px solid black;
   height: 35px;
   margin: 0px 5% 20px 5%;
   display: inline-block;
+  width: 90%;
 }
 
 nav ul {
@@ -50,6 +57,11 @@ nav>ul>li>a {
 }
 
 /*left side bar*/
+
+h5 {
+  text-decoration: underline;
+}
+
 .small_side_bar {
   background-color: darkred;
   height: auto;
@@ -74,9 +86,22 @@ nav>ul>li>a {
 
 
 .right-side-nav {
-  background-color: lightgrey;
+  background-color: antiquewhite;
+}
+
+figcaption {
+  color: black;
 }
 
 footer {
   text-align: center;
+}
+
+
+.footer-color {
+  color: black;
+}
+
+.copyright-color {
+  color: grey;
 }
